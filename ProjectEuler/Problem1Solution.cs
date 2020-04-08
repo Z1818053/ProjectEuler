@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace ProjectEuler
 {
@@ -18,12 +17,8 @@ namespace ProjectEuler
                 {
                     sum += i;
                 }
-
             }
-
             Console.WriteLine(sum);
-
-
         }
 
         static bool isMultiple(int currentIndex)
